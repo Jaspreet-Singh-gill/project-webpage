@@ -29,12 +29,101 @@ a{
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding: 24px;
 }
 
-.container ul{
+ul{
     font-size: 18px;
     display: flex;
     gap:12px;
+}
+
+
+.container2{
+
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    width: 400px;
+    gap:48px;
+
+}
+
+.header-title{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8 ;
+}
+
+.header-text{
+    font-size: 18px;
+    color:#E5E7EB ;
+}
+
+.subcontainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:18px;
+}
+
+button{
+    font-size: 18px;
+    background-color: #3882F6;
+    border:2px solid #3882F6;
+    color:white;
+    padding:4px 18px;
+    border-radius: 15%;
+}
+
+
+.container1{
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:48px;
+
+}
+
+.random{
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:48px;
+    padding: 20px 80px;
+}
+
+.middle img{
+    width: 200px;
+    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 12%;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    gap:24px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+    width: 210px;
+    
+}
+.card div{
+    text-align: center;
 }
