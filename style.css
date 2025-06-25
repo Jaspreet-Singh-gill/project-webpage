@@ -166,3 +166,15 @@ button{
     padding:24px 36px;
 
 }
+
+
+.footer{
+    display: flex;
+    height: 80px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
