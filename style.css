@@ -146,3 +146,23 @@ button{
     font-size: 28px;
     align-self: flex-end;
 }
+
+.message-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    background-color: #3882F6;
+    border:2px solid #3882F6;
+    color:white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding:24px 36px;
+
+}
