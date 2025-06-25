@@ -166,6 +166,9 @@ button{
     padding:24px 36px;
 
 }
+.message-text{
+    width:500px;
+}
 
 
 .footer{
