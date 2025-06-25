@@ -127,3 +127,22 @@ button{
 .card div{
     text-align: center;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-family: "light italic";
+    font-size: 36px;
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 200px;
+    margin-top: 34px;
+    
+}
+
+.author{
+    font-size: 28px;
+    align-self: flex-end;
+}
