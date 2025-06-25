@@ -1,4 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
 img {
     width:300px;
     height: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:  #E5E7EB;
+}
+
+.header-logo{
+    font-size: 24px;
+    color:#F9FAF8 
+
+}
+
+
+.container{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.container ul{
+    font-size: 18px;
+    display: flex;
+    gap:12px;
 }
